@@ -44,7 +44,6 @@
 
 .writeup h1 {
   font-size: 50px;
-  /* border: 1px solid black; */
   width: 80%;
   line-height: 45px;
   margin-bottom: 30px;
@@ -57,14 +56,15 @@
 
 .trial {
   width: 100%;
-  /* border: 1px solid black; */
   text-align: center;
   color: #f2f2f2;
-  padding: 12px 0;
+  padding: 20px 0;
   border-radius: 5px;
   background-color: #5e54a4;
   margin-bottom: 20px;
   font-weight: 300;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: 0px 7px 5px rgba(101, 99, 110, 0.5);
 }
 
 .trial span {
@@ -73,10 +73,10 @@
 
 .form-container {
   width: 88%;
-  /* height: 400px; */
   padding: 40px 6%;
   background-color: #f2f2f2;
   border-radius: 5px;
+  box-shadow: 0px 8px 5px rgba(101, 99, 110, 0.5);
 }
 
 .form-container form {
@@ -85,7 +85,7 @@
 
 input {
   width: 90%;
-  padding: 13px 5%;
+  padding: 17px 5%;
   margin-bottom: 20px;
   border-radius: 5px;
   background-color: transparent;
@@ -99,7 +99,7 @@ input::placeholder {
 
 .trial-btn {
   width: 100%;
-  padding: 12px 0;
+  padding: 17px 0;
   border-radius: 5px;
   background-color: #38cc8b;
   border: none;
